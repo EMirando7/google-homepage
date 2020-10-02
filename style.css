@@ -1,7 +1,101 @@
-.button-1 {
-    background-color: gray;
+
+a {
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    font-weight: 0;
+
+
 }
 
-.profile-pic {
-    width: 10%;
+a:visited {
+    text-decoration: none;
+    color: black;
 }
+
+.header a {
+    padding-left: 15px;
+
+}
+
+/* .logoC {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+} */
+
+#logo {
+    position: absolute;
+    width: 500;
+    height: 200;
+    left: 200px;
+    bottom: 5px;
+
+}
+.profile-pic {
+    width: 2%;
+    height: 20px;
+    right: 10px;
+
+}
+
+.profile-pic{
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    border-radius: 70%;
+}
+
+.middle-portion {
+    position: relative;
+    top: 270px;
+    left: 350px;
+    right: 100px;
+ }
+
+ .search-bar {
+     position: absolute;
+     left: 150px;
+     top: 50px;
+     border-radius: 24px;
+     height: 44px;
+     width: 400px;
+ }
+
+
+.header {
+    position: relative;
+
+}
+
+.header a {
+    font-size: 13px;
+}
+.left-side {
+    position: absolute;
+    padding: 10px 0 0 20px;
+
+}
+
+.right-side {
+    text-align: end;
+    padding: 10px 10px 0 20px;
+}
+
+.footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: block;
+    top: 700px;
+    
+}
+
+.footer .bottom-bottom {
+    float: right;
+}
+
+.footer .bottom-top {
+    position: absolute;
+}
+
