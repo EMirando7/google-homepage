@@ -24,3 +24,12 @@ ______
 * `.left-side { position: absolute}`
     Made the left side to align with the right side, note that `.right-side` wasn't positioned. 
 * Changing the padding-right of `profile-pic` changed its circular size
+
+---------
+
+Second revision:
+
+## Header
+Google's header has a `div` container for two `div` children, the left and right links each.
+
+1 -> 1a - 1a
