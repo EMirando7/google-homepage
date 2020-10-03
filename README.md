@@ -28,8 +28,21 @@ ______
 ---------
 
 Second revision:
+Added code  
 
+```
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+```
 ## Header
 Google's header has a `div` container for two `div` children, the left and right links each.
 
 1 -> 1a - 1a
+
+### Pending to find out why
+While adding style for both `left-header` and `right-header`, again I saw that left used `position: absolute` and right used `position: relative` . 
