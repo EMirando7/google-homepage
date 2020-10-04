@@ -159,3 +159,14 @@
 .right-foot a:hover {
     text-decoration: underline;
 }
+
+#logo-container {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left:40%;
+    top: 170px;
+
+}
