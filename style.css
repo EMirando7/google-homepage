@@ -71,6 +71,7 @@
     width: 400px;
     box-shadow: 0 1px 6px rgba(32,33,36,0.28);
     background-image: none;
+    padding-left: 35px;
 }
 
 .button-1 {
