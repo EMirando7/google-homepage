@@ -46,3 +46,15 @@ Google's header has a `div` container for two `div` children, the left and right
 
 ### Pending to find out why
 While adding style for both `left-header` and `right-header`, again I saw that left used `position: absolute` and right used `position: relative` . 
+
+## Bigger clickable anchor tags
+Google's store `a` tag's margi is bigger on the left. Found this when trying to make my anchor tags clickable areas bigger. 
+
+##### What I learned: 
+* `position: relative` is useful so that z-index can be used to make the click area stay on top of text that comes next.
+
+## Make the selection outline border non existant
+
+##### What I learned:
+
+It's useful to add `outline: none` to all the document, so making a selector `* {}` in which the outline rule is added. While this solution decreases accessebility in general, I figure it's a better stradegy to maintain the cohesiveness of the general style of the project.

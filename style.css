@@ -109,7 +109,9 @@ body {
     padding: 0;
     overflow-x: hidden; 
 } */
-
+* {
+    outline: none;
+}
 #profile-pic  {
     height: auto; 
     width: auto; 
@@ -131,11 +133,10 @@ body {
     padding-left: 15px;
     color: black;
     text-decoration: none;
-    /* display: inline-block;
     position: relative;
-    z-index: 1;
-    margin: -2em;
-     */
+    z-index: 1; 
+    font-size: 13px;
+    font-family: arial,sans-serif;
 }
 
 #left-header a:hover {
@@ -153,6 +154,14 @@ body {
     padding-right: 15px;
     color: black;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+#right-header a:hover {
+    text-decoration: underline;
 }
 .middle-portion {
     position: relative;
@@ -171,6 +180,8 @@ body {
     height: 44px;
     margin: 0 auto;
     width: 400px;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    background-image: none;
 }
 
 .button-1 {
