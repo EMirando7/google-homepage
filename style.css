@@ -131,7 +131,8 @@
     margin-right: 21px;
     font-family: arial,sans-serif;
     font-size: 14px;
-
+    position: relative;
+    display: inline-block;
 }
 
 .left-foot a:hover {
@@ -149,6 +150,8 @@
     margin-left: 21px;
     font-family: arial,sans-serif;
     font-size: 14px;
+    position: relative;
+    display: inline-block;
 }
 .right-foot a:hover {
     text-decoration: underline;
